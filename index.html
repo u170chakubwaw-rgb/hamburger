@@ -1,61 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SmartPOS</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
+
   <body>
     <nav class="sidebar">
-      <div class="logo">SmartPOS</div>
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <span>Smart<span class="logo-red">POS</span></span>
+      </div>
 
       <ul class="menu">
-        <li><button class="menu-item">Dashboard</button></li>
-        <li><button class="menu-item active">Food and Drinks</button></li>
-        <li><button class="menu-item">Messages</button></li>
-        <li><button class="menu-item">Bills</button></li>
-        <li><button class="menu-item">Settings</button></li>
+        <li>
+          <button class="menu-item">
+            <img src="assets/dashboard.svg" alt="Dashboard" />
+            Dashboard
+          </button>
+        </li>
+        <li>
+          <button class="menu-item active">
+            <img src="assets/burger.svg" alt="Food and Drinks" />
+            Food and Drinks
+          </button>
+        </li>
+        <li>
+          <button class="menu-item">
+            <img src="assets/messages.svg" alt="Messages" />
+            Messages
+          </button>
+        </li>
+        <li>
+          <button class="menu-item">
+            <img src="assets/bills.svg" alt="Bills" />
+            Bills
+          </button>
+        </li>
+        <li>
+          <button class="menu-item">
+            <img src="assets/settings.svg" alt="Settings" />
+            Settings
+          </button>
+        </li>
 
         <li class="menu-section-title">Other</li>
 
-        <li><button class="menu-item">Notifications</button></li>
-        <li><button class="menu-item">Support</button></li>
+        <li>
+          <button class="menu-item">
+            <img src="assets/notifications.svg" alt="Notifications" />
+            Notifications
+          </button>
+        </li>
+        <li>
+          <button class="menu-item">
+            <img src="assets/support.svg" alt="Support" />
+            Support
+          </button>
+        </li>
       </ul>
 
       <div class="user">
-        <img class="avatar" src="https://via.placeholder.com/60" alt="" />
-        <div class="user-role">Waiter</div>
+        <img
+          class="avatar"
+          src="assets/adrian_trabka.png"
+          alt="Adrian Trąbka"
+        />
+        <div class="user-name">Adrian Trąbka</div>
+        <div class="user-role">Waiter • 4h 56m</div>
         <button class="profile-btn">Open profile</button>
+        <div class="copyright">© 2025 SmartPOS App</div>
       </div>
     </nav>
 
     <main class="main">
       <header class="topbar">
-        <h1>Burgers</h1>
-        <input type="text" class="search" placeholder="Search..." />
+        <h1>Burgery</h1>
+        <input type="text" class="wyszukaj" placeholder="Wyszukaj..." />
       </header>
 
       <section class="cards">
         <div class="card">
-          <img src="assets/burger_classic.png" alt="" />
+          <img src="assets/burger_classic.png" alt="Classic Burger" />
           <h2>Classic Burger</h2>
           <p class="weight">320 g</p>
           <p class="price">$4.50</p>
         </div>
 
         <div class="card">
-          <img src="assets/BBQ MONSTER.jpg" alt="" />
+          <img src="assets/BBQ_MONSTER.jpg" alt="BBQ Monster" />
           <h2>BBQ Monster</h2>
           <p class="weight">450 g</p>
           <p class="price">$6.20</p>
         </div>
 
         <div class="card">
-          <img src="assets/Chicken butger SPICY.avif" alt="" />
+          <img
+            src="assets/chicken-burger-spicy.avif"
+            alt="Spicy Chicken Burger"
+          />
           <h2>Spicy Chicken</h2>
           <p class="weight">290 g</p>
           <p class="price">$5.10</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/lamberjack-burger.webp" alt="Lamberjack Burger" />
+          <h2>Lamberjack</h2>
+          <p class="weight">500 g</p>
+          <p class="price">$5.00</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/reversed-vege-burger.webp" alt="Vege Burger" />
+          <h2>Vege Burger</h2>
+          <p class="weight">280 g</p>
+          <p class="price">$4.60</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/burger-szefowski.webp" alt="Burger Szefowski" />
+          <h2>Burger Szefowski</h2>
+          <p class="weight">1050 g</p>
+          <p class="price">$19.80</p>
         </div>
       </section>
     </main>
