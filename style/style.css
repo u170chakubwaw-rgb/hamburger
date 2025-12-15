@@ -67,7 +67,7 @@ body {
     14px 0 0 rgba(255, 255, 255, 0.6);
 }
 
-.logo-red {
+.logo-P0S {
   color: #b93c3c;
 }
 
@@ -122,7 +122,7 @@ body {
   gap: 6px;
 }
 
-.avatar {
+.avatar-Adrian {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -138,7 +138,7 @@ body {
   color: #999;
 }
 
-.profile-btn {
+.profile-job {
   width: 100%;
   padding: 12px;
   border-radius: 12px;
@@ -215,7 +215,7 @@ body {
   font-weight: 700;
   color: #ffb300;
 }
-/* nienawidze tego */
+/* nienawidze tego chatgpt troche ja */
 
 @media (max-width: 1000px) {
   .cards {
